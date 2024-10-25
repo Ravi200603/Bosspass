@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-scale=1.0">
+    <title>BossPass - HassFree Password Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo fade-in">BOSS PASS</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>Prices</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <div class="greeting">
+            <p>Your secure and convenient password manager. We help you safely store and manage your passwords, so you never have to worry about forgetting them again!</p>
+            <p>Get started by adding your first password or explore our features to see how we can help you stay organized and secure.</p>
+        </div>
+        
+        <h2>Your Passwords</h2>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Action</th>
+            </tr>
+        </table>
+        
+        <h2>Add Password</h2>
+        <form id="password-form">
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
